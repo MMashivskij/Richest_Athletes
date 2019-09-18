@@ -3,17 +3,17 @@ $rank_hight: 32px;
 .person {
   width: 220px;
   position: relative;
-  align-content: center;
+  transition: 1s;
 
   &__look {
     position: relative;
-    align-items: center;   
+    align-items: center;
     padding: 10px 10px 0;
 
     &_photo {
       width: 100%;
       border-radius: 50%;
-      transition: 2s;
+      transition: 1s;
     }
 
     &_rank {
@@ -49,7 +49,6 @@ $rank_hight: 32px;
       &_sport {
         font-size: 18px;
         line-height: 21px;
-        color: black;
         vertical-align: top;
         transition: 1s;
         transition: 1s;

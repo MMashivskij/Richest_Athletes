@@ -34,7 +34,7 @@ body {
 .person {
   width: 220px;
   position: relative;
-  align-content: center;
+  transition: 1s;
 }
 .person__look {
   position: relative;
@@ -44,7 +44,7 @@ body {
 .person__look_photo {
   width: 100%;
   border-radius: 50%;
-  transition: 2s;
+  transition: 1s;
 }
 .person__look_rank {
   position: absolute;
@@ -76,7 +76,6 @@ body {
 .person__details_info_sport {
   font-size: 18px;
   line-height: 21px;
-  color: black;
   vertical-align: top;
   transition: 1s;
   transition: 1s;
@@ -88,7 +87,7 @@ body {
   border-radius: 12px;
   background-color: #eee;
   z-index: 1;
-  transition: 1s;
+  object-position: center;
 }
 .person:hover .person__look_photo {
   border-radius: 60px;
